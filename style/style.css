@@ -1,0 +1,678 @@
+html,
+body {
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+  margin: 0;
+  font-family: "Limelight", sans-serif;
+  text-rendering: optimizeLegibility;
+}
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+body {
+  background: #eee;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+  font-family: Raleway;
+}
+
+#mainpage {
+  background-image: url("../images/photography1.jpg"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 100vh; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+#galmenu {
+  background-image: url("../images/photography2.jpg"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 500px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+#galone {
+  background-image: url("../images/photography3.jpg"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 500px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+#galtwo {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/photography4.jpg"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 500px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+#galthree {
+  background-image: url("../images/photography5.jpg"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 500px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+#galfour {
+  background-image: url("../images/photography6.jpg"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 500px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+#galfive {
+  background-image: url("../images/photography7.jpg"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 500px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+#galsix {
+  background-image: url("../images/photography8.jpg"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 500px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+#pageabout {
+  background-image: url("../images/photography9.jpg"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 500px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+#pagecontact {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/photography_contact.jpg"); /* The image used */ /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 500px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+#mainpage {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+#maincont {
+  width: 50%;
+  margin-left: 50%;
+}
+#maintext {
+  padding-top: 10%;
+  font-size: 18px;
+  float: left;
+}
+#maintext h3 {
+  font-size: 18px;
+  color: rgba(231, 228, 228, 0.25);
+  letter-spacing: 2px;
+}
+#maintitle {
+  margin-top: 170px;
+  padding-top: 150px;
+  font-size: 43px;
+  text-align: left;
+  line-height: 62px;
+  font-weight: 100;
+  letter-spacing: 4px;
+}
+#maintitle h1:nth-child(2) {
+  color: orange;
+}
+#maintitle h1 {
+  font-size: 66px;
+  font-weight: lighter;
+}
+#portolink {
+  float: left;
+}
+#portolink a {
+  z-index: 8;
+  white-space: nowrap;
+  font-size: 15px;
+  line-height: 15px;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+  font-family: Raleway;
+  background-color: rgba(0, 0, 0, 0);
+  border-color: rgba(255, 255, 255, 0.25);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 30px;
+  letter-spacing: 1px;
+  visibility: inherit;
+  transition: none 0s ease 0s;
+  text-align: left;
+  margin: 0px;
+  padding: 13px 35px;
+  min-height: 0px;
+  min-width: 0px;
+  max-height: none;
+  max-width: none;
+  opacity: 1;
+  transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+  transform-origin: 50% 50% 0px;
+  box-shadow: rgb(153, 153, 153) 0px 0px 0px 0px;
+}
+#galmenu {
+  width: 100%;
+  height: 100%;
+}
+#galtitle {
+  padding-top: 18%;
+  width: 50%;
+  margin-left: 30%;
+}
+#galtitle h3 {
+  color: rgba(255, 255, 255, 0.35);
+  font-size: 18px;
+  letter-spacing: 2px;
+}
+#galone {
+  width: 100%;
+  height: 100%;
+}
+#galonecont {
+  padding-left: 5%;
+  padding-top: 10%;
+  text-align: initial;
+}
+#galoneh {
+  font-size: 25px;
+}
+#galonetitl h3 {
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 300;
+  letter-spacing: 2px;
+
+  color: rgba(255, 255, 255, 0.35);
+}
+#galoneparap {
+  width: 30%;
+  padding-top: 5%;
+}
+#galoneparap p {
+  line-height: 26px;
+  font-weight: 300;
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+#galoneh h1 {
+  font-size: 53px;
+  line-height: 44px;
+}
+
+#galtwo {
+  width: 100%;
+  height: 100%;
+}
+
+#galtwocont {
+  padding-left: 5%;
+  padding-top: 10%;
+  text-align: initial;
+}
+#galtwoh {
+  font-size: 25px;
+}
+#galtwotitl h3 {
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  color: rgba(255, 255, 255, 0.35);
+}
+#galtwotitl {
+  font-size: 18px;
+}
+#galtwoparap {
+  width: 30%;
+  padding-top: 5%;
+}
+#galtwoparap p {
+  line-height: 26px;
+  font-weight: 300;
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+#galon #galontwoo ul {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+#galthree {
+  width: 100%;
+  height: 100%;
+}
+#galthreecont {
+  padding-left: 5%;
+  padding-top: 10%;
+  text-align: initial;
+}
+#galthreeh {
+  font-size: 25px;
+}
+#galthreetitl {
+  font-size: 18px;
+}
+#galthreetitl h3 {
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  color: rgba(255, 255, 255, 0.35);
+}
+#galthreeparap {
+  width: 35%;
+  padding-top: 5%;
+  font-size: 18px;
+}
+#galthreeparap p {
+  line-height: 26px;
+  font-weight: 300;
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+#galfour {
+  width: 100%;
+  height: 100%;
+}
+#galfourcont {
+  width: 50%;
+  float: right;
+  padding-left: 5%;
+  padding-top: 10%;
+  text-align: right;
+  margin-right: 5%;
+}
+#galfourh {
+  font-size: 25px;
+}
+#galfourtitl {
+  font-size: 18px;
+}
+#galfourtitl h3 {
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  color: rgba(255, 255, 255, 0.35);
+}
+#galfourparap {
+  width: 100%;
+  padding-left: 35%;
+  padding-top: 5%;
+  font-size: 18px;
+}
+#galfourparap p {
+  line-height: 26px;
+  font-weight: 300;
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+#galfourcont #portolink {
+  margin-left: 65%;
+}
+
+#galfive {
+  width: 100%;
+  height: 100%;
+}
+#galfivecont {
+  width: 50%;
+  float: right;
+  padding-left: 5%;
+  padding-top: 10%;
+  text-align: right;
+  margin-right: 5%;
+}
+#galfivecont #portolink {
+  margin-left: 65%;
+}
+#galfiveh {
+  font-size: 25px;
+}
+#galfivetitl {
+  font-size: 18px;
+}
+#galfivetitl h3 {
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  color: rgba(255, 255, 255, 0.35);
+}
+#galfiveparap {
+  width: 100%;
+  padding-left: 35%;
+  padding-top: 5%;
+  font-size: 18px;
+}
+#galfiveparap p {
+  line-height: 26px;
+  font-weight: 300;
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+
+#galsix {
+  width: 100%;
+  height: 100%;
+}
+
+#galsixcont {
+  padding-left: 5%;
+  padding-top: 10%;
+  text-align: initial;
+}
+#galsixh {
+  font-size: 25px;
+}
+#galsixtitl h3 {
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  color: rgba(255, 255, 255, 0.35);
+}
+#galsixtitl {
+  font-size: 18px;
+}
+#galsixparap {
+  width: 30%;
+  padding-top: 5%;
+}
+#galsixparap p {
+  line-height: 26px;
+  font-weight: 300;
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+
+#pageabout {
+  width: 100%;
+  height: 100%;
+}
+#pageabout #portolink {
+  margin-left: 3%;
+}
+#aboutcont {
+  padding-left: 5%;
+  padding-top: 10%;
+}
+#abouth h1 {
+  text-align: left;
+  margin-left: 40px;
+  font-size: 55px;
+}
+
+#aboutphot {
+  display: grid;
+  grid-template-columns: 230px 500px;
+}
+#aboutphot h4 {
+  line-height: 27px;
+  font-weight: 300;
+  font-size: 18px;
+  letter-spacing: 2px;
+  color: rgba(255, 255, 255, 0.35);
+}
+#aboutdesi {
+  display: grid;
+  grid-template-columns: 150px 600px;
+}
+#aboutdesi h4 {
+  line-height: 27px;
+  font-weight: 300;
+  font-size: 18px;
+  letter-spacing: 2px;
+  color: rgba(255, 255, 255, 0.35);
+}
+
+#titt {
+  margin-left: 100px;
+}
+#aboutdesc {
+  font-size: 25px;
+}
+#aboutparap {
+  width: 38%;
+  padding-top: 5%;
+  text-align: initial;
+  margin-left: 40px;
+}
+#aboutparap p {
+  line-height: 26px;
+  font-weight: 300;
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+#white {
+  width: 381px;
+  font-size: 55px;
+}
+#black {
+  background-color: black;
+  width: 397px;
+  font-size: 55px;
+}
+#pagecontact {
+  width: 100%;
+  height: 100%;
+}
+#contactcont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10%;
+}
+#contadress {
+  display: flex;
+  flex-direction: column;
+}
+#contadress a {
+  padding-bottom: 2%;
+  width: 380px;
+  text-align: initial;
+  text-decoration: none;
+  margin-left: 3%;
+}
+#contadress p {
+  padding-bottom: 2%;
+  width: 380px;
+  text-align: initial;
+  text-decoration: none;
+}
+#laboutparap {
+  width: 450px;
+  padding-top: 5%;
+  text-align: initial;
+  margin-left: 40px;
+  margin-bottom: 5%;
+}
+#laboutparap p {
+  line-height: 26px;
+  font-weight: 300;
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+
+#galonone section {
+  margin-left: 0;
+}
+#galonone .navigation {
+  display: flex;
+  margin-bottom: 5%;
+  margin-left: 20%;
+}
+#galonone section .navigation li img {
+  width: 100px;
+}
+
+#galontwooo section {
+  margin-left: 0;
+}
+#galontwooo .navigation {
+  display: flex;
+  margin-bottom: 6%;
+  margin-left: 20%;
+}
+#galontwooo section .navigation li img {
+  width: 100px;
+}
+
+#galonthree section {
+  margin-left: 0;
+}
+#galonthree .navigation {
+  display: flex;
+  margin-bottom: 5%;
+  margin-left: 20%;
+}
+#galonthree section .navigation li img {
+  width: 100px;
+}
+
+#galonfour section {
+  margin-left: 0;
+}
+#galonfour .navigation {
+  display: flex;
+  margin-bottom: 6%;
+}
+#galonfour section .navigation li img {
+  width: 100px;
+}
+
+#galonfive section {
+  margin-left: 0;
+}
+#galonfive .navigation {
+  display: flex;
+  margin-bottom: 5%;
+}
+#galonfive section .navigation li img {
+  width: 100px;
+}
+
+#galonsix section {
+  margin-left: 0;
+}
+#galonsix .navigation {
+  display: flex;
+  margin-bottom: 5%;
+  margin-left: 20%;
+}
+#galonsix section .navigation li img {
+  width: 100px;
+}
+
+#socmed {
+  width: 10%;
+  margin-top: 20%;
+}
+#socmed a {
+  margin: 2%;
+}
+
+#galmenu #socmed {
+  margin-top: 0%;
+}
+#galone #socmed {
+  margin-top: -15%;
+}
+#galtwo #socmed {
+  margin-top: -15%;
+}
+#galthree #socmed {
+  margin-top: -15%;
+}
+#galfour #socmed {
+  margin-top: -30%;
+  margin-left: -105%;
+}
+#galfive #socmed {
+  margin-top: 57%;
+}
+#galsix #socmed {
+  margin-top: -17%;
+}
+#pageabout #socmed {
+  margin-top: 24%;
+}
+#pagecontact #socmed {
+  margin-top: -20%;
+}
+
+#contadress img {
+  width: 16px;
+  height: 16px;
+  margin-left: 3%;
+}
+#map {
+  display: flex;
+  align-items: center;
+}
+#phone {
+  display: flex;
+  align-items: center;
+}
+#mail {
+  display: flex;
+  align-items: center;
+}
+#time {
+  display: flex;
+  align-items: center;
+}
+#time p {
+  margin-left: 3%;
+}

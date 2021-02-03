@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Swiper slider + AOS Animate On Scroll Library</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.css'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.1.6/css/swiper.min.css'>
+<link rel='stylesheet' href='https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css'>
+<link rel="stylesheet" type="text/css" href="revolution/fonts/font-awesome/css/font-awesome.css">
+<link rel="stylesheet" type="text/css" href="revolution/fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css">
+<link href="http://fonts.googleapis.com/css?family=Raleway%3A300%2C100%2C600" rel="stylesheet" property="stylesheet" type="text/css" media="all">
+<link rel="stylesheet" href="style/style.css">
+<link rel="stylesheet" href="style/gallery.css">
+</head>
+<body>
+<div class="swiper-container">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide">
+      <div id="mainpage"  data-aos="fade-down">
+        <div id="maincont">
+          <div id="maintext">
+            <h3>HI, MY NAME IS <span style="color:white; font-size:20px;">JOHN</span> AND I LOVE</h3>
+          </div>
+          <div id="maintitle">
+            <h1>DESIGN & </h1>
+            <h1>PHOTOGRAPHY</h1>
+          </div>
+          <div id="portolink">
+            <a href="#pageabout">MY PORTOFOLIO</a>
+          </div>
+        </div>
+        <div id="socmed">
+          <a href="https://www.facebook.com/">
+            <img src="images/facebook.svg" alt="" srcset="">
+            <a href="https://twitter.com/">
+              <img src="images/twitter.svg" alt="" srcset="">
+            </a>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="swiper-slide">
+      <div id="galmenu"  data-aos="flip-left">
+        <div id="glamenu">
+          <div id="galtitle">
+            <h3>SOME OF MY <span style="color:white; font-size:19px;">BEST WORK</span></h3>
+          </div>
+        </div>
+        <div id="galontwoo">
+          <section>
+            <ul class="navigation">
+              <li onclick="imgSlider('photography3.jpg')">
+                <a href="#galone"><img src="./images/photography_thumb1.jpg" alt="" srcset="" /></a>
+              </li>
+              <li onclick="imgSlider('photography4.jpg')">
+               <a href="#galtwo"><img src="./images/photography_thumb5.jpg" alt="" srcset="" /></a> 
+              </li>
+              <li onclick="imgSlider('photography5.jpg')">
+                <a href="#galthree"><img src="./images/photography_thumb3.jpg" alt="" srcset="" /></a>
+              </li>
+              <li onclick="imgSlider('photography6.jpg')">
+                <a href="#galfour"></a><img src="./images/photography_thumb2.jpg" alt="" srcset="" /></a>
+              </li>
+              <li onclick="imgSlider('photography7.jpg')">
+                <a href="#galfive"><img src="./images/photography_thumb4.jpg" alt="" srcset="" /></a>
+              </li>
+              <li onclick="imgSlider('images/photography8.jpg')">
+                <a href="#galsix"><img src="./images/photography_thumb6.jpg" alt="" srcset="" /></a>
+              </li>
+            </ul>
+          </section>
+        </div>
+        <div id="socmed">
+          <a href="https://www.facebook.com/">
+            <img src="images/facebook.svg" alt="" srcset="">
+          </a>
+          <a href="https://twitter.com/">
+            <img src="images/twitter.svg" alt="" srcset="">
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="swiper-slide">
+      <div id="galone" data-aos="flip-left">
+        <div id="galonecont">
+          <div id="galoneh">
+            <h1>FEMME FATALE</h1>
+          </div>
+          <div id="galonetitl">
+            <h3>PHOTOGRAPHY</h3>
+          </div>
+          <div id="galoneparap">
+            <p>
+              Fashion means something that is trendy or valued in a certain
+              time period. The prevailing fashion/trends/style is called
+              'vouge'. Fashion can also simply mean ou lifestyle: the
+              clothing and accessories that we wear and the cosmetics that
+              we apply
+            </p>
+          </div>
+          <div id="portolink">
+            <a href="#galmenu">BACK TO OVERVIEW</a>
+          </div>
+          <div id="galonone">
+            <section>
+              <ul class="navigation">
+                <li onclick="imgSlider('photography3.jpg')">
+                  <a href="#galone"><img src="./images/photography_thumb1.jpg" alt="" srcset="" /></a>
+                </li>
+                <li onclick="imgSlider('photography4.jpg')">
+                 <a href="#galtwo"><img src="./images/photography_thumb5.jpg" alt="" srcset="" /></a> 
+                </li>
+                <li onclick="imgSlider('photography5.jpg')">
+                  <a href="#galthree"><img src="./images/photography_thumb3.jpg" alt="" srcset="" /></a>
+                </li>
+                <li onclick="imgSlider('photography6.jpg')">
+                  <a href="#galfour"></a><img src="./images/photography_thumb2.jpg" alt="" srcset="" /></a>
+                </li>
+                <li onclick="imgSlider('photography7.jpg')">
+                  <a href="#galfive"><img src="./images/photography_thumb4.jpg" alt="" srcset="" /></a>
+                </li>
+                <li onclick="imgSlider('images/photography8.jpg')">
+                  <a href="#galsix"><img src="./images/photography_thumb6.jpg" alt="" srcset="" /></a>
+                </li>
+              </ul>
+            </section>
+          </div>
+        </div>
+        <div id="socmed">
+          <a href="https://www.facebook.com/">
+            <img src="images/facebook.svg" alt="" srcset="">
+          </a>
+          <a href="https://twitter.com/">
+            <img src="images/twitter.svg" alt="" srcset="">
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="swiper-slide">
+      <div id="galtwo" data-aos="fade-left"
+      data-aos-anchor="#galone"
+      data-aos-offset="500"
+      data-aos-duration="500">
+        <div id="galtwocont">
+          <div id="galtwoh">
+            <h1>FEMME FATALE</h1>
+          </div>
+          <div id="galtwotitl">
+            <h3>PHOTOGRAPHY</h3>
+          </div>
+          <div id="galtwoparap">
+            <p>
+              Fashion means something that is trendy or valued in a certain
+              time period. The prevailing fashion/trends/style is called
+              'vouge'. Fashion can also simply mean ou lifestyle: the
+              clothing and accessories that we wear and the cosmetics that
+              we apply
+            </p>
+          </div>
+          <div id="portolink">
+            <a href="#galmenu">BACK TO OVERVIEW</a>
+          </div>
+          <div id="galontwooo">
+            <section>
+              <ul class="navigation">
+                <li onclick="imgSlider('photography3.jpg')">
+                  <a href="#galone"><img src="./images/photography_thumb1.jpg" alt="" srcset="" /></a>
+                </li>
+                <li onclick="imgSlider('photography4.jpg')">
+                 <a href="#galtwo"><img src="./images/photography_thumb5.jpg" alt="" srcset="" /></a> 
+                </li>
+                <li onclick="imgSlider('photography5.jpg')">
+                  <a href="#galthree"><img src="./images/photography_thumb3.jpg" alt="" srcset="" /></a>
+                </li>
+                <li onclick="imgSlider('photography6.jpg')">
+                  <a href="#galfour"></a><img src="./images/photography_thumb2.jpg" alt="" srcset="" /></a>
+                </li>
+                <li onclick="imgSlider('photography7.jpg')">
+                  <a href="#galfive"><img src="./images/photography_thumb4.jpg" alt="" srcset="" /></a>
+                </li>
+                <li onclick="imgSlider('images/photography8.jpg')">
+                  <a href="#galsix"><img src="./images/photography_thumb6.jpg" alt="" srcset="" /></a>
+                </li>
+              </ul>
+            </section>
+          </div>
+        </div>
+        <div id="socmed">
+          <a href="https://www.facebook.com/">
+            <img src="images/facebook.svg" alt="" srcset="">
+          </a>
+          <a href="https://twitter.com/">
+            <img src="images/twitter.svg" alt="" srcset="">
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="swiper-slide">
+      <div id="galthree">
+        <div id="galthreecont">
+          <div id="galthreeh">
+            <h1>FEMME FATALE</h1>
+          </div>
+          <div id="galthreetitl">
+            <h3>PHOTOGRAPHY</h3>
+          </div>
+          <div id="galthreeparap">
+            <p>
+              Fashion means something that is trendy or valued in a certain
+              time period. The prevailing fashion/trends/style is called
+              'vouge'. Fashion can also simply mean ou lifestyle: the
+              clothing and accessories that we wear and the cosmetics that
+              we apply
+            </p>
+          </div>
+          <div id="portolink">
+            <a href="#galmenu">BACK TO OVERVIEW</a>
+          </div>
+          <div id="galonthree">
+            <section>
+              <ul class="navigation">
+                <li onclick="imgSlider('photography3.jpg')">
+                  <a href="#galone"><img src="./images/photography_thumb1.jpg" alt="" srcset="" /></a>
+                </li>
+                <li onclick="imgSlider('photography4.jpg')">
+                 <a href="#galtwo"><img src="./images/photography_thumb5.jpg" alt="" srcset="" /></a> 
+                </li>
+                <li onclick="imgSlider('photography5.jpg')">
+                  <a href="#galthree"><img src="./images/photography_thumb3.jpg" alt="" srcset="" /></a>
+                </li>
+                <li onclick="imgSlider('photography6.jpg')">
+                  <a href="#galfour"></a><img src="./images/photography_thumb2.jpg" alt="" srcset="" /></a>
+                </li>
+                <li onclick="imgSlider('photography7.jpg')">
+                  <a href="#galfive"><img src="./images/photography_thumb4.jpg" alt="" srcset="" /></a>
+                </li>
+                <li onclick="imgSlider('images/photography8.jpg')">
+                  <a href="#galsix"><img src="./images/photography_thumb6.jpg" alt="" srcset="" /></a>
+                </li>
+              </ul>
+            </section>
+          </div>
+        </div>
+        <div id="socmed">
+          <a href="https://www.facebook.com/">
+            <img src="images/facebook.svg" alt="" srcset="">
+          </a>
+          <a href="https://twitter.com/">
+            <img src="images/twitter.svg" alt="" srcset="">
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="swiper-slide">
+      <div id="galfour">
+        <div id="galfourcont">
+          <div id="galfourh">
+            <h1>FEMME FATALE</h1>
+          </div>
+          <div id="galfourtitl">
+            <h3>PHOTOGRAPHY</h3>
+          </div>
+          <div id="galfourparap">
+            <p>
+              Fashion means something that is trendy or valued in a certain
+              time period. The prevailing fashion/trends/style is called
+              'vouge'. Fashion can also simply mean ou lifestyle: the
+              clothing and accessories that we wear and the cosmetics that
+              we apply
+            </p>
+          </div>
+          <div id="portolink">
+            <a href="#galmenu">BACK TO OVERVIEW</a>
+          </div>
+          <div id="galonfour">
+            <section>
+              <ul class="navigation">
+                <li onclick="imgSlider('photography3.jpg')">
+                  <a href="#galone"><img src="./images/photography_thumb1.jpg" alt="" srcset="" /></a>
+                </li>
+                <li onclick="imgSlider('photography4.jpg')">
+                 <a href="#galtwo"><img src="./images/photography_thumb5.jpg" alt="" srcset="" /></a> 
+                </li>
+                <li onclick="imgSlider('photography5.jpg')">
+                  <a href="#galthree"><img src="./images/photography_thumb3.jpg" alt="" srcset="" /></a>
+                </li>
+                <li onclick="imgSlider('photography6.jpg')">
+                  <a href="#galfour"></a><img src="./images/photography_thumb2.jpg" alt="" srcset="" /></a>
+                </li>
+                <li onclick="imgSlider('photography7.jpg')">
+                  <a href="#galfive"><img src="./images/photography_thumb4.jpg" alt="" srcset="" /></a>
+                </li>
+                <li onclick="imgSlider('images/photography8.jpg')">
+                  <a href="#galsix"><img src="./images/photography_thumb6.jpg" alt="" srcset="" /></a>
+                </li>
+              </ul>
+            </section>
+            <div id="socmed">
+              <a href="https://www.facebook.com/">
+                <img src="images/facebook.svg" alt="" srcset="">
+              </a>
+              <a href="https://twitter.com/">
+                <img src="images/twitter.svg" alt="" srcset="">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="swiper-slide">
+      <div id="galfive">
+        <div id="galfivecont">
+          <div id="galfiveh">
+            <h1>FEMME FATALE</h1>
+          </div>
+          <div id="galfivetitl">
+            <h3>PHOTOGRAPHY</h3>
+          </div>
+          <div id="galfiveparap">
+            <p>
+              Fashion means something that is trendy or valued in a certain
+              time period. The prevailing fashion/trends/style is called
+              'vouge'. Fashion can also simply mean ou lifestyle: the
+              clothing and accessories that we wear and the cosmetics that
+              we apply
+            </p>
+          </div>
+          <div id="portolink">
+            <a href="#galmenu">BACK TO OVERVIEW</a>
+          </div>
+          <div id="galonfive">
+            <section>
+              <ul class="navigation">
+                <li onclick="imgSlider('photography3.jpg')">
+                  <a href="#galone"><img src="./images/photography_thumb1.jpg" alt="" srcset="" /></a>
+                </li>
+                <li onclick="imgSlider('photography4.jpg')">
+                 <a href="#galtwo"><img src="./images/photography_thumb5.jpg" alt="" srcset="" /></a> 
+                </li>
+                <li onclick="imgSlider('photography5.jpg')">
+                  <a href="#galthree"><img src="./images/photography_thumb3.jpg" alt="" srcset="" /></a>
+                </li>
+                <li onclick="imgSlider('photography6.jpg')">
+                  <a href="#galfour"></a><img src="./images/photography_thumb2.jpg" alt="" srcset="" /></a>
+                </li>
+                <li onclick="imgSlider('photography7.jpg')">
+                  <a href="#galfive"><img src="./images/photography_thumb4.jpg" alt="" srcset="" /></a>
+                </li>
+                <li onclick="imgSlider('images/photography8.jpg')">
+                  <a href="#galsix"><img src="./images/photography_thumb6.jpg" alt="" srcset="" /></a>
+                </li>
+              </ul>
+            </section>
+          </div>
+        </div>
+        <div id="socmed">
+          <a href="https://www.facebook.com/">
+            <img src="images/facebook.svg" alt="" srcset="">
+          </a>
+          <a href="https://twitter.com/">
+            <img src="images/twitter.svg" alt="" srcset="">
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="swiper-slide">
+      <div id="galsix">
+      <div id="galsixcont">
+        <div id="galsixh">
+          <h1>FEMME FATALE</h1>
+        </div>
+        <div id="galsixtitl">
+          <h3>PHOTOGRAPHY</h3>
+        </div>
+        <div id="galsixparap">
+          <p>
+            Fashion means something that is trendy or valued in a certain
+            time period. The prevailing fashion/trends/style is called
+            'vouge'. Fashion can also simply mean ou lifestyle: the
+            clothing and accessories that we wear and the cosmetics that
+            we apply
+          </p>
+        </div>
+        <div id="portolink">
+          <a href="#galmenu">BACK TO OVERVIEW</a>
+        </div>
+        <div id="galonsix">
+          <section>
+            <ul class="navigation">
+              <li onclick="imgSlider('photography3.jpg')">
+                <a href="#galone"><img src="./images/photography_thumb1.jpg" alt="" srcset="" /></a>
+              </li>
+              <li onclick="imgSlider('photography4.jpg')">
+               <a href="#galtwo"><img src="./images/photography_thumb5.jpg" alt="" srcset="" /></a> 
+              </li>
+              <li onclick="imgSlider('photography5.jpg')">
+                <a href="#galthree"><img src="./images/photography_thumb3.jpg" alt="" srcset="" /></a>
+              </li>
+              <li onclick="imgSlider('photography6.jpg')">
+                <a href="#galfour"></a><img src="./images/photography_thumb2.jpg" alt="" srcset="" /></a>
+              </li>
+              <li onclick="imgSlider('photography7.jpg')">
+                <a href="#galfive"><img src="./images/photography_thumb4.jpg" alt="" srcset="" /></a>
+              </li>
+              <li onclick="imgSlider('images/photography8.jpg')">
+                <a href="#galsix"><img src="./images/photography_thumb6.jpg" alt="" srcset="" /></a>
+              </li>
+            </ul>
+          </section>
+          <div id="socmed">
+            <a href="https://www.facebook.com/">
+              <img src="images/facebook.svg" alt="" srcset="">
+            </a>
+            <a href="https://twitter.com/">
+              <img src="images/twitter.svg" alt="" srcset="">
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div> </div>
+    <div class="swiper-slide">
+      <div id="pageabout">
+        <div id="aboutcont">
+          <div id="abouth">
+            <h1>WHAT I DO</h1>
+          </div>
+          <div id="aboutphot">
+            <h4>PHOTOGRAPHY</h4>
+            <h4 id="tit">PORTRATIS + WEDDINGS + FAMILY PRINT</h4>
+          </div>
+          <div id="aboutdesi">
+            <h4>DESIGN</h4>
+            <h4 id="titt">CONCEPTION + BRANDING + COMPANY LOGO</h4>
+          </div>
+        <div id="aboutparap">
+          <p>
+            Photography is a way of feeling, of touching, of loving. What
+            you have caught on film is captured for ever... it remembers
+            little things, long after you have forgoteen everything.
+          </p>
+        </div>
+        <div id="portolink">
+          <a href="#pagecontact">HIRE ME</a>
+        </div>
+        <div id="socmed">
+          <a href="https://www.facebook.com/">
+            <img src="images/facebook.svg" alt="" srcset="">
+          </a>
+          <a href="https://twitter.com/">
+            <img src="images/twitter.svg" alt="" srcset="">
+          </a>
+        </div>
+      </div>
+    </div> 
+    </div>
+    <div class="swiper-slide">
+      <div id="pagecontact">
+        <div id="contactcont">
+          <div id="aboutdesc">
+            <h1 id="white">GET IN TOUCH</h1>
+            <h1 id="black">AND GET REAL</h1>
+          </div>
+          <div id="laboutparap">
+            <p>
+              The meeting of two personalities is like the contact of
+              two chemical substances: if there is any reaction, both
+              are transformetd.
+            </p>
+          </div>
+          <div id="contadress">
+            <div id="map">
+            <img src="images/region.png" alt="">
+              <a
+                href="https://www.google.com/maps/@44.0267103,18.3312149,7.97z"
+              >
+                Photo street, 7654, LA
+              </a>
+            </div>
+            <div id="phone">
+              <img src="images/phone.png" alt="" srcset="">
+              <a href="tel:+0800987654"> 0080 987654</a>
+            </div>
+            <div id="mail">
+              <img src="images/mail.png" alt="mail">
+              <a href="mailto:info@mailme.com"> info@mailme.com </a>
+            </div>
+            <div id="time">
+              <img src="images/clock.png" alt="clock">
+              <p>Monday - Saturday 07:30 - 22:30</p>
+          </div>
+          </div>
+        </div>
+      </div> 
+      <div id="socmed">
+        <a href="https://www.facebook.com/">
+          <img src="images/facebook.svg" alt="" srcset="">
+          <a href="https://twitter.com/">
+            <img src="images/twitter.svg" alt="" srcset="">
+          </a>
+        </a>
+      </div>
+    </div>
+  </div>
+  <!-- Add Arrows -->
+  <div class="swiper-button-next"></div>
+  <div class="swiper-button-prev"></div>
+  <!-- Add Pagination -->
+  <div class="swiper-pagination"></div>
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.1.6/js/swiper.js'></script>
+<script src='https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js'></script><script  src="script/script.js"></script>
+
+</body>
+</html>
